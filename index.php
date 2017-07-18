@@ -356,7 +356,8 @@ exit();
 	.inputfile + label svg{width:1em;height:1em;vertical-align:middle;fill:currentColor;margin-top:-.25em;margin-right:.25em}
 	.txt-normal{font-weight:normal}
 	.btn-default.btn-on.active, .btn-default.btn-off.active{background-color: #3cd;color: white}	
-	.btn-switch .btn-default.btn-off.active{background-color: #777}	
+	.btn-switch .btn-default.btn-off.active{background-color: #777}
+	#footer{margin:auto}
 	</style>
 	<script type="text/javascript">
 	var ff = {
@@ -412,10 +413,11 @@ exit();
 					<br />
 			<input class="btn btn-default hidden" type="reset" value="Clear" />
 			<input class="btn btn-success hidden" type="submit" value="Convert" />
-		</form> 
+		</form>
+		<hr />
+		<div id="footer" class="small">powered by <a class="btn btn-default btn-xs" href="https://github.com/exa18/cadence-anomaly">GitHub</a></div>
 	</div>
 	</div>
 	</div>
 </body>
 </html>
-
