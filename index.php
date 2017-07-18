@@ -314,7 +314,7 @@ if(isset($_POST['action']) and $_POST['action'] == 'upload'){
 			if ($baro){
 				$t=' with Barometer';
 				$c=$xml->attributes()->{'creator'};
-				if (!empty($c)) {
+				if (empty($c)) {
 					$xml->addAttribute('creator', $device . $t);
 				}else{
 					$xml->attributes()->{'creator'}=($c?$c:$device) . $t;
