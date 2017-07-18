@@ -13,7 +13,7 @@ Zainteresowało mnie dlaczego ten wykres tak wygląda, dlaczego prawe ramie jest
         <img width="49%" src="readme/cadence-chart_before-fix.png"></img>
 </div>
 
-### Korekta
+## Korekta
 Zabrałem się więc za bebechy krzywej z poziomu programu GC3.3. I co się okazało? Kilka ciekawych wyjątków.
 1. nagłe skoki wartości gdy wartości poprzednia i następna są kontynuacją a ten skok powinien zawierać się między nimi
 2. bezsensowne wartości 255, pojedyncze, w parach i w trójkach
